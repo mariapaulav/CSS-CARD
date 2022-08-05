@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons.flaticon.com/png/512/3655/premium/3655025.png?token=exp=1659374437~hmac=bdb61d4cbf937daf393a6dde83583ab2">
+    <title>Info Card</title>
+    
+</head>
+<style>
+    body{
+        background: #dedede;
+    }
+    section{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+    }
+    .card{
+        margin-top: 20px;
+        width: 280px;
+        height: 350px;
+        background: #ffffff;
+        border-radius: 10px;
+        overflow: hidden;
+        z-index: 1;
+        position: absolute;
+        box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    }
+    p{
+        font-family: 'Courier New', Courier, monospace
+    }
+    .card img{
+        width: 100%;
+        height: 60%;
+        z-index: 2;
+        position: absolute;
+    }
+    .photosText{
+        z-index: 3;
+        top: 172px;
+        position: absolute;
+        background-color: rgb(253, 60, 26);
+        color: #ffffff;
+        font-size: small;
+        box-sizing: border-box;
+        padding: 5px;
+    }
+    .date{
+        z-index: 3;
+        top: 10px;
+        right: 0;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        background-color: rgb(253, 60, 26);
+        border-radius: 50%;
+        padding: 5px 9px 5px 9px;
+        margin-right: 10px;
+    }
+    .date p{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        color: #dedede;
+        font-size: small;
+    }
+    .date p:nth-child(2){
+        font-size: xx-small;
+    }
+    .textInfo{
+        position: absolute;
+        bottom: 0;
+        color: coral;
+        margin-left: 10px;
+    }
+    .textInfo p:nth-child(1){
+        color: black;
+        font-size: large;
+        margin-top: -15px;
+    }
+    .textInfo p:nth-child(2){
+        margin-top: -10px;
+        margin-bottom: 50px;
+        font-size: small;
+    }
+    .textInfo p:nth-child(3){
+        font-size: x-small;
+        color: dimgray;
+    }
+</style>
+<body>
+    <section>
+        <div class="card">
+            <img
+            src="https://images.pexels.com/photos/313782/pexels-photo-313782.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            />
+            <p class="photosText">
+                TRENDING
+            </p>
+            <div class="date">
+                <p>27</p>
+                <p>MAR</p>
+            </div>
+            <div class="textInfo">
+                <p>Dear New York</p>
+                <p>I'll never get over You...</p> 
+                <p> 📝 Book now! &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 💬 39 comments</p> 
+                <p></p>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
