@@ -2,6 +2,9 @@
 
 
 ✨👩‍💻 
+
+##
+
 I have started the #100daysofcode challenge.
 
 For this first day I have replicated a card that I found on the internet, using HTML, CSS,
